@@ -9908,6 +9908,7 @@ header.masthead h1 {
  .text-black {
   color: #303030 !important;
 }
+
 .text-heading-aboutus{
   letter-spacing: 10px;
   text-transform: uppercase;
@@ -9932,5 +9933,30 @@ header.masthead h1 {
   margin-left: auto;
   margin-right: auto;
 }
+.services-heading{
+  font-family: 'Hind', 'Arial', 'sans-serif';
+  color:#ffffff;
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 300;
+  letter-spacing: 3px;
 
-    
+}
+.services-subheading{
+  font-family: 'Hind', 'Arial', 'sans-serif';
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 18px;
+}
+.services-icon{
+  width: 50px;
+
+}
+
+.mb-6 {
+  margin-bottom: 2rem !important;
+}
+.services-text{
+  margin-top: 10px;
+  font-size: 18px;
+}    

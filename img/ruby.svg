@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" height="55px" width="60px" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 60 55"><!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+ <title>ruby</title>
+ <desc>Created with Sketch.</desc>
+ <g id="Page-1" fill-rule="evenodd" fill="none">
+  <g id="home" fill-rule="nonzero" fill="#FE5B4E" transform="translate(-165 -751)">
+   <g id="ruby" transform="translate(165 751)">
+    <g id="if_diamond_430094" transform="translate(.27157 .29398)">
+     <path id="Shape" d="m58.208 19.421h-57.017c-0.46224 0-0.88215-0.272-1.077-0.698-0.19478-0.426-0.12885-0.928 0.16871-1.286l13.674-16.475c0.226-0.27184 0.558-0.42869 0.909-0.42869h29.671c0.35 0 0.682 0.15685 0.908 0.42894l13.672 16.475c0.297 0.359 0.363 0.861 0.168 1.286s-0.614 0.698-1.077 0.698zm-54.462-2.413h51.908l-11.669-14.062-28.567 0.0005-11.672 14.062z"/>
+     <polygon id="Shape" points="29.7 54.477 0.28212 18.992 2.0996 17.438 29.7 50.73 57.3 17.438 59.117 18.992"/>
+     <path id="Shape" d="m29.7 53.809c-0.505 0-0.953-0.322-1.121-0.805l-11.935-34.388c-0.131-0.377-0.07-0.795 0.163-1.117l11.936-16.475c0.446-0.61738 1.465-0.61738 1.913 0.0004l11.938 16.475c0.233 0.322 0.295 0.74 0.163 1.117l-11.938 34.388c-0.167 0.483-0.615 0.805-1.119 0.805zm-10.607-35.394l10.606 30.56 10.608-30.56-10.607-14.64-10.607 14.64z"/>
+     <rect id="Rectangle-path" transform="translate(15.952 10.047) rotate(79.869) translate(-15.952 -10.047)" height="2.4131" width="16.476" y="8.4722" x="7.709"/>
+     <rect id="Rectangle-path" transform="translate(43.473 10.044) rotate(10.137) translate(-43.473 -10.044)" height="16.736" width="2.3758" y="1.677" x="41.894"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
