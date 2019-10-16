@@ -9839,11 +9839,63 @@ header.masthead h1 {
 
 
 
-  @media only screen and (max-width: 768px) {
+  /* @media only screen and (max-width: 768px) {
     .collapse ul li , .in ul li  {border-bottom: 1px solid #ededed;padding: 5px;}
     .navbar-collapse {
         border-color: white;
         background-color:#ffffff;
         opacity: 0.95
      } 
- }
+ } */
+
+
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .collapse ul li , .in ul li  {border-bottom: 1px solid #ededed;padding: 5px;}
+  .navbar-collapse {
+      border-color: white;
+      background-color:#ffffff;
+      opacity: 0.95
+   }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .collapse ul li , .in ul li  {border-bottom: 1px solid #ededed;padding: 5px;}
+  .navbar-collapse {
+      border-color: white;
+      background-color:#ffffff;
+      opacity: 0.95
+   }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .collapse ul li , .in ul li  {border-bottom: 1px solid #ededed;padding: 5px;}
+  .navbar-collapse {
+      border-color: white;
+      background-color:#ffffff;
+      opacity: 0.95
+   }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .collapse ul li , .in ul li  {border-bottom: 1px solid #ededed;padding: 5px;}
+  .navbar-collapse {
+      border-color: white;
+      background-color:#ffffff;
+      opacity: 0.95
+   }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .collapse ul li , .in ul li  {border-bottom: 1px solid #ededed;padding: 5px;}
+  .navbar-collapse {
+      border-color: white;
+      background-color:#ffffff;
+      opacity: 0.95
+   }
+}
