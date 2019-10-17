@@ -59,6 +59,6 @@
 
 
 AOS.init({
-  easing: 'ease-out-back',
-  duration: 1000
+  duration: 1000,
+  disable: 'mobile' 
 });
