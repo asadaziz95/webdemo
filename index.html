@@ -21,6 +21,12 @@
 
   <!-- Theme CSS - Includes Bootstrap -->
   <link href="css/creative.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/animate.css">
+
+  <!-- CDN -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <!-- CDN -->
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </head>
 
@@ -69,7 +75,7 @@
   </header>
 
   <!-- About Section -->
-  <section class="page-section light-color" id="about">
+  <section class="page-section-aboutus light-color " id="about">
     <div class="container">
         <div class="uvc-heading-spacer "
          style="margin-bottom:40px;height:40px;width: 1px;"><span class="uvc-headings-line" style="border-style: solid; border-bottom-width: 40px; border-color: rgb(204, 204, 204); width: 1px; margin: 0px auto;"></span></div>
@@ -89,143 +95,74 @@
   </section>
 
   <!-- Services Section -->
-  <section class="page-section dark-color" id="services">
+  <section class="page-section dark-color " id="services">
     <div class="container">
-      <h2 class="text-center mt-0 services-heading">Services we provide</h2>
+      <h2 class="text-center mt-0 services-heading ">Services we provide</h2>
       <div class="row">
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
+        <div class="col-lg-4 col-md-6 text-center" >
+          <div class="mt-5" >
             <!-- <i class="fas fa-4x fa-gem text-primary mb-4"></i> -->
             
-            <img src="./img/ruby.svg" class="mb-6 services-icon" alt="" >
-            <h3 class="h4 mb-2 services-subheading">Ruby On Rails</h3>
+            <img src="./img/ruby.svg" class="mb-6 services-icon"   alt="" >
+            <h3 class="h4 mb-2 services-subheading ">Ruby On Rails</h3>
             <p class="text-muted mb-0 services-text">We have been using Ruby on Rails for building API web services using Ruby On Rails</p>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 text-center">
+        <div class="col-lg-4 col-md-6 text-center" >
           <div class="mt-5">
             <!-- <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i> -->
-            <img src="./img/react.svg" class="mb-6 services-icon" alt="">
+            <img src="./img/react.svg" class="mb-6 services-icon"  alt="">
             <h3 class="h4 mb-2 services-subheading">React.js</h3>
             <p class="text-muted mb-0 services-text">
                 React.js helps us in building web and mobile applications with better user experience. React.js is incredibly fast and it lends to building reusable components.</p>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 text-center">
+        <div class="col-lg-4 col-md-6 text-center" >
           <div class="mt-5">
             <!-- <i class="fas fa-4x fa-globe text-primary mb-4"></i> -->
-            <img src="./img/reactnative.svg" style="height: 55px;"class="mb-4 services-icon" alt="">
+            <img src="./img/reactnative.svg" style="height: 55px;"class="mb-4 services-icon"  alt="">
             <h3 class="h4 mb-2 services-subheading">React Native</h3>
             <p class="text-muted mb-0 services-text">
                 React Native allows us to have a single codebase for both Android and iOS applications. It means our team can deliver features faster while reusing most of the components for both the platforms.
               </p>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 text-center">
+      
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 text-center" >
           <div class="mt-5">
             <!-- <i class="fas fa-4x fa-heart text-primary mb-4"></i> -->
-            <img src="./img/depl2.png" class="mb-4 services-icon" alt="">
-            <h3 class="h4 mb-2 services-subheading" style="margin-top: 4px;">Hosting</h3>
-            <p class="text-muted mb-0 services-text">We use AWS and Heroku platforms for hosting.</p>
+            <img src="./img/depl2.png" class="mb-4 services-icon" alt="" >
+            <h3 class="h4 mb-2 services-subheading" style="margin-top: 4px;">DevOps & Cloud</h3>
+            <p class="text-muted mb-0 services-text">DevOps & Cloud, Robust Infrastructure as Code solutions for automated provisioning and scaling.</p>
           </div>
         </div>
+        <div class="col-lg-4 col-md-6 text-center" >
+          <div class="mt-5">
+            <!-- <i class="fas fa-4x fa-heart text-primary mb-4"></i> -->
+            <img src="./img/uiux.png"  class="mb-4 services-icon" alt="" >
+            <h3 class="h4 mb-2 services-subheading" style="margin-top: 4px;">UX/UI Design</h3>
+            <p class="text-muted mb-0 services-text">Design effective products with elegant interfaces and delightful user experiences.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center" data-aos="zoom-out">
+          <div class="mt-5">
+            <!-- <i class="fas fa-4x fa-heart text-primary mb-4"></i> -->
+            <img src="./img/customrsoftware.png" class="mb-4 services-icon" alt="" >
+            <h3 class="h4 mb-2 services-subheading" style="margin-top: 4px;"> Custom Software Development</h3>
+            <p class="text-muted mb-0 services-text">Craft an end-to-end application with a complete cross-functional software team.</p>
+          </div>
+        </div>
+
+       
       </div>
     </div>
   </section>
 
-  <!-- Portfolio Section -->
-  <section id="portfolio">
-    <div class="container-fluid p-0">
-      <div class="row no-gutters">
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
-            <div class="portfolio-box-caption p-3">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- Call to Action Section -->
-  <section class="page-section bg-dark text-white">
-    <div class="container text-center">
-      <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-      <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
-    </div>
-  </section>
+
 
   <!-- Contact Section -->
   <section class="page-section" id="contact">
@@ -267,7 +204,9 @@
   <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="js/creative.min.js"></script>
+  <script src="js/creative.js"></script>
+
+ 
 
 </body>
 
